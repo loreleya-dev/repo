@@ -72,6 +72,22 @@ img{
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.img-and-ingr-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem; /* відстань між блоками */
+    margin-top: 2rem;
+}
+
+.image-wrapper img {
+    border-radius: 12px; /* заокруглені кути */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* опціонально — тінь */
+}
+
+.ingr-wrapper{
+    max-width: 400px;
+}
 /* backdown */
 h1 {
     text-align: center;

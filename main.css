@@ -12,6 +12,15 @@ body {
 h1, h2 {
     color: rgb(11, 144, 188);
 }
+h1 {
+    transition: all 0.5s ease-in-out;
+}
+
+h1:hover {
+    color: #f00;
+    transform: scale(1.1);
+}
+
 
 p {
     font-size: 16px;
